@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Timed Coding Quiz</title>
+</head>
+<body>
+    <header><h1>Timed Coding Quiz</h1></header>
+    <div id="timer"></div>
+    <div class="main">
+        <!-- This button disappears once the game starts-->
+        <button type="button" class="start-button" id="start-button">Start</button>
+        <p>Click the Start Button to begin the timed quiz.</p>
+        <p>Each wrong answer deducts 10 seconds.</p>
+    </div>
+    <!-- these buttons only appear after the user clicks the start button -->
+    <div class="buttons">
+        <button type="button" class="button" id="button">A</button>
+        <button type="button" class="button" id="button">B</button>
+        <button type="button" class="button" id="button">C</button>
+        <button type="button" class="button" id="button">D</button>
+    </div>
+    <hr>
+    <div class="scores">
+        <p>View High Scores</p>
+    </div>
+    <script src="./assets/script.js"></script>
+
+</body>
+</html>
