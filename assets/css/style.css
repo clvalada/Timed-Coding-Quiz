@@ -3,31 +3,28 @@
     font-size:16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    line-height: 150%;
+    padding: 5px;
 }
 
-* h1 {
+h1 {
     font-size: 36px;
 }
 
-main {
+button {
+    padding: 5px 12px;
+    spacing: 5px;
+    border-radius: 6px;
+    margin: 5px;
+}
+
+#main {
     flex: 0 0 100%;
     width: 40%;
     align-self: center;
     display: flex;
     flex-direction: column;
     padding: 10px;
-}
-
-.button {
-    font-size: 12px;
-    padding: 10px 24px;
-    spacing: 5px;
-    border-radius: 12px;
-  }
-
-.button:hover {
-    background-color: darkolivegreen;
-    color: white;
 }
 
 .start-button {
@@ -39,7 +36,7 @@ main {
     border-radius: 12px;
   }
 
-  .start-button:hover {
+.start-button:hover {
     background-color: whitesmoke;
     color: red;
 }

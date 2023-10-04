@@ -9,25 +9,25 @@
 </head>
 <body>
     <header><h1>Timed Coding Quiz</h1></header>
-    <div id="timer"></div>
-    <div class="main">
-        <!-- This button disappears once the game starts-->
-        <button type="button" class="start-button" id="start-button">Start</button>
-        <p>Click the Start Button to begin the timed quiz.</p>
-        <p>Each wrong answer deducts 10 seconds.</p>
-    </div>
-    <!-- these buttons only appear after the user clicks the start button -->
-    <div class="buttons">
-        <button type="button" class="button" id="button">A</button>
-        <button type="button" class="button" id="button">B</button>
-        <button type="button" class="button" id="button">C</button>
-        <button type="button" class="button" id="button">D</button>
-    </div>
-    <hr>
-    <div class="scores">
-        <p>View High Scores</p>
-    </div>
-    <script src="./assets/script.js"></script>
-
+    <main>
+        <div id="timer-container" style="display: none;">
+            <p id="timer">Time Left: 60 seconds</p>
+        </div>
+        <div class="main">
+            <!-- This button disappears once the game starts-->
+            <button type="button" class="start-button" id="start-button">Start</button>
+        </div>
+        <div id="quiz">
+            <div id="question"></div>
+            <ul id="choices"></ul>
+            <p id="results"></p>
+        </div>
+        <div id="initials-container" style="display: none;">
+            <label for="initials">Enter your initials:</label>
+            <input type="text" id="initials" />
+            <button id="save-initials">Save</button>
+        </div>
+        <script src="./assets/script.js"></script>
+    </main>
 </body>
 </html>
