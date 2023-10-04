@@ -2,6 +2,10 @@
 
 This is a 60-second multiple choice quiz written in Javascript. Each wrong answer deducts 10 seconds from the timer. Upon completion, users can save their scores to the browser storage. 
 
+## Link to the application
+https://clvalada.github.io/Timed-Coding-Quiz/
+
+
 ## User Story
 
 ```
