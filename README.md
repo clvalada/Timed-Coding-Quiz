@@ -35,7 +35,7 @@ The following animation demonstrates the application functionality:
 ## Screenshots
 
 A user cliks the Start button to begin the quiz. 
-![A user clicks Start to begin the quiz.](.assets/screenshots/quiz-start.png)
+![A user clicks Start to begin the quiz.](./assets/screenshots/quiz-start.png)
 
 This is 1 of 6 Questions.
 ![Sample Quiz Question.](./assets/screenshots/sample-question.png)
