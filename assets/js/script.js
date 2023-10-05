@@ -25,7 +25,7 @@ const questions = [
         correctAnswer: 1,
     },
     {
-        question: "How do we write a comment in Javascript?",
+        question: "How do we write an inline comment in Javascript?",
         choices: ["//","<!--comment-->","##","/*/"],
         correctAnswer: 0,
     }
